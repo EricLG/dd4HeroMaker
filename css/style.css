@@ -1,0 +1,194 @@
+h5 {
+	background-color:black;
+	color:white;
+	text-align:center;
+	margin:0px 10px;
+}
+
+.white-text {
+    color:white;
+}
+
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+
+@media print {
+  body {
+    margin: 0;
+    box-shadow: 0;
+	width: 29.7cm;
+	height: 21cm; 
+  }
+}
+
+.global-array {
+	//display:block;
+	//margin : 10px 0px; // TODO retirer ?
+}
+
+.white-array {
+	background-color:white;
+	width:10%;
+	float:left;
+	margin: 7px 0px;
+}
+
+.black-array {
+	background-color:black;
+	width:90%;
+	float:right;
+	margin: 0px 0px 7px 0px;
+}
+
+.white-input {
+	width:22px;
+	border:1px solid black;
+}
+
+.main-input-square {
+	text-align:right;
+	width:28px;
+	height:30px;
+	float:right;
+	
+	padding-right:5px;
+	position:relative;
+	right:-20px;
+	border: 1px solid;
+}
+
+.main-input-square-2 {
+	text-align:right;
+	width:28px;
+	height:15px;
+	float:right;
+    top:5px;
+    position: relative;
+	vertical-align: middle;    
+	border: 1px solid;
+}
+.main-input-square-3 {
+	text-align:right;
+	width:28px;
+	height:15px;
+	float:left;
+    top:5px;
+    position: relative;
+	vertical-align: middle;
+	border: 1px solid;
+}
+
+.main-input-circle {
+	text-align:right;
+	width:27px;
+	height:30px;
+	float:right;
+	position:relative;
+	right:-20px;
+	padding-right:8px;
+	padding-left:-5px;
+	border: 1px solid;
+    border-radius: 25px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+[class*="col-"] {
+    float: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+[class*="composant-"] {
+    display:inline-block;
+    margin:0px 5px;
+}
+
+[class*="block-composant-"] {
+    display:block;
+    margin:0px 5px;
+}
+
+
+.row {
+margin : 0px 0px;
+}
+
+.thin-row {
+    margin : 0px 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.input-line {
+    border-style: hidden hidden solid hidden;
+    border-width: 0px 0px 1px 0px;
+    font-size:medium;
+    width:100%;
+    height:30px;
+    background-color: antiquewhite;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.text-bottom {
+    vertical-align: text-bottom;
+}
+
+.label-input-line {
+    line-height:10px;
+    font-size:x-small;
+    // vertical-align: text-top;
+}
+
+
+
+.white-label {
+    line-height:10px;
+    font-size:x-small;
+    vertical-align: text-top;
+    color:azure;
+    
+}
+
+.input-square {
+	text-align:right;
+	//width:28px;
+    width:100%;
+	height:30px;
+	//margin:0px 5px;
+	border: 1px solid;
+}
