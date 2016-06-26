@@ -1,0 +1,19 @@
+.dd4-black-array {
+	background-color:black;
+	width:90%;
+	float:right;
+	margin: 0px 0px 7px 0px;
+    position: relative;
+    top: 7px; 
+    z-index: 50;
+}
+
+.dd4-white-array {
+	background-color:white;
+	width:90%;
+	float:right;
+	margin: 0px 0px 7px 0px;
+    position: relative;
+    top: 7px; 
+    z-index: 50;
+}

@@ -121,7 +121,8 @@ page[size="A4"][layout="landscape"] {
 .main-input-circle {
 	text-align:right;
 	width:27px;
-	height:30px;
+	height:27px;
+    top:1px;
 	float:right;
 	position:relative;
 	right:-20px;
@@ -130,6 +131,21 @@ page[size="A4"][layout="landscape"] {
 	border: 1px solid;
     border-radius: 25px;
     z-index: 100;
+}
+
+.white-button {
+    background-color: #FFF;
+    font-size: larger;
+    border: 2px solid;
+    float:none;
+}
+
+.black-button {
+    background-color: #000;
+    font-size: larger;
+    border: 2px solid;
+    color:antiquewhite;
+    float:none;
 }
 
 .col-1 {width: 8.33%;}
@@ -276,4 +292,14 @@ margin : 0px 0px;
 	height:30px;
 	//margin:0px 5px;
 	border: 1px solid;
+}
+
+
+.ban {
+    color:bisque;
+background: linear-gradient( 
+  #ccc6c3 0%,
+  #828c95 24%,
+  #000000 41%,
+  #7f7f7f 100%);
 }
