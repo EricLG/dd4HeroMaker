@@ -1,0 +1,18 @@
+.input-line {
+    border-style: hidden hidden solid hidden;
+    border-width: 0px 0px 1px 0px;
+    font-size:medium;
+    width:100%;
+    height:30px;
+}
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.label-input-line {
+    line-height:10px;
+    font-size:x-small;
+    // vertical-align: text-top;
+}
+

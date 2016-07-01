@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Caracteristique } from './app.caracteristique';
+import { InputDd4 } from './app.input';
 
 @Component({
   selector: 'my-app',
@@ -11,9 +12,10 @@ import { Caracteristique } from './app.caracteristique';
   <caracteristique [title]="'Intelligence'" [bigTitle]="'INT'" [character]="datas"></caracteristique>
   <caracteristique [title]="'Sagesse'" [bigTitle]="'SAG'" [character]="datas"></caracteristique>
   <caracteristique [title]="'Charisme'" [bigTitle]="'CHA'" [character]="datas"></caracteristique>
+  <input-dd4 [lbl]="'teesst'"  [character]="datas"></input-dd4>
   `,
-   directives:[Caracteristique]
+   directives:[Caracteristique, InputDd4]
 })
 export class AppComponent {
-    datas={'FOR':5, 'CON':'3', 'DEX':6, stockPoints:10}
+    datas={'nom':'', 'FOR':5, 'CON':'3', 'DEX':6, stockPoints:10}
 }

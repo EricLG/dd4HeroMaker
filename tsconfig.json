@@ -9,5 +9,5 @@
     "removeComments": false,
     "noImplicitAny": false
   },
-  "files":["app/app.caracteristique.ts", "app/app.components.ts", "app/main.ts"]
+  "files":["app/app.input.ts","app/app.caracteristique.ts", "app/app.components.ts",  "app/main.ts"]
 }

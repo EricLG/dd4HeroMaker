@@ -85,7 +85,7 @@ export class Caracteristique {
         return false;
     }
     canDec():Boolean {
-        if (this.caract() > 0) {
+        if (this.character[this.bigTitle] > 0) {
             return true;
         }
         return false;
